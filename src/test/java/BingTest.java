@@ -73,7 +73,7 @@ public class BingTest {
         // error：选择器找不到元素，浏览器中可以找到
         WebElement webElement = driver.findElement(By.cssSelector("#sa_5003 > div > span"));
         String topRecord = webElement.getText();
-        assertEquals(str2,topRecord);
+        assertEquals(str1,topRecord);
     }
 
     public void search(WebDriver webDriver,String arg) throws InterruptedException {
